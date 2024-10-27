@@ -1,0 +1,12 @@
+body{
+    background-color: gray;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    display: block;
+}
+h2{
+    display: block;
+}

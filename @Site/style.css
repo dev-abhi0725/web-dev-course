@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+hr{
+    height: 3px;
+    width: 50%;
+    background-color: grey;
+}
+
+.name{
+    font-family: 'Caveat Brush', cursive;
+    display: flex;
+    font-size: 70pt;
+    justify-content: center;
+    margin: 0;
+    text-shadow: -4px -4px red;
+    
+}
+.name-info{
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    font-weight: bold;
+    
+}
+
+.home{
+    width: 100%;
+    max-width: auto;
+    height: auto;
+}
+.restro-home{
+    
+    padding: 10px;
+}
+
+.main-restro{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    /* max-width: auto; */
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.restro1{
+    width: 500px;
+    height: 300px;
+}
+.restro2{
+    width: 400px;
+    height: 500px;
+}
+
+.home-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    height: 100%;
+}
+.home-discription{
+    flex:1;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;  
+}
+h2{
+    text-align: center;
+    padding-bottom: 0;
+}
+p{
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.reserve-button{
+    background-color: rgba(17, 141, 203, 0.581);
+    border-radius: 15px;
+    box-shadow: -2px -2px red;
+
+}
+.seat{
+    margin: 0;
+    padding: 5px ;
+    color: black;
+    font-weight: bold;
+}
+
+.restro-contact{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: gray;
+    
+    padding: 0;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.restro-address{
+    /* background-color: aquamarine; */
+    flex: 1;
+}
+.restro-contact-me{
+    /* background-color: rgb(225, 101, 208); */
+    flex: 1;
+}
+h3{
+    text-align: center;
+    margin: 5px 0 0 0;
+    padding: 0;
+}
